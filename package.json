@@ -1,0 +1,27 @@
+{
+  "name": "project_n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANHQUAN9982/nodejs_v1.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "anhquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANHQUAN9982/nodejs_v1/issues"
+  },
+  "homepage": "https://github.com/ANHQUAN9982/nodejs_v1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
