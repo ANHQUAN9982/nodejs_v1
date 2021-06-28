@@ -1,0 +1,91 @@
+body {
+  background-color: #dad3d3; }
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: forestgreen;
+  width: 360px;
+  height: 500px; }
+
+li {
+  /* float:left;*/ }
+
+#item {
+  text-align: center; }
+
+li a, .dropbnt {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  text-decoration: none;
+  align-content: center;
+  width: 360px; }
+
+li a:hover, .dropbnt:hover .dropbnt {
+  background-color: #faf7f7; }
+
+#bang_drop {
+  background-color: white;
+  height: auto;
+  vertical-align: middle;
+  justify-content: left; }
+
+BANG_MENU {
+  height: 100px;
+  width: 50px; }
+
+#item {
+  color: black;
+  text-align: left; }
+
+#item:hover {
+  color: forestgreen; }
+
+.flex-div {
+  display: flex;
+  width: 400px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0fff0;
+  border: solid 1px lightgray; }
+
+#s1 {
+  margin: 10px;
+  padding: 10px; }
+
+#top_logo {
+  position: relative;
+  background-color: cornflowerblue;
+  height: 70px;
+  width: 1170px;
+  color: white; }
+
+.ant-card-body {
+  padding: 24px;
+  zoom: 1; }
+
+#khung_noi_dung {
+  position: relative;
+  top: -500px;
+  right: 10px; }
+
+#t1 {
+  top: 100px;
+  right: 10px;
+  left: 10px;
+  color: red; }
+
+div.relative {
+  position: relative;
+  left: 80px;
+  top: -1000px;
+  border: 3px solid #73AD21;
+  color: aqua; }
+
+#content {
+  background-color: white; }
