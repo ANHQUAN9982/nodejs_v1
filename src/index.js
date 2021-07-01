@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const exhb = require('express-handlebars');
 const path = require('path');
 const app = express();
-const port = 3000;
+const port = 8000;
 
 const route = require('./router');
  
@@ -24,4 +24,4 @@ route(app);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
-})
+});

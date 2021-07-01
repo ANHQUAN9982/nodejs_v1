@@ -1,15 +1,10 @@
 class NewController {
-    trangchu(req, res) {
-        res.render('home');
-    }
-    tintuc(req, res) {
-        res.render('news');
-    }
     timkiem(req, res) {
         res.render('search');
     }
-    lienhe(req, res) {
-        res.render('contact');
+
+    trangchu(req, res) {
+        res.render('home');
     }
 }
 module.exports = new NewController;

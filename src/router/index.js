@@ -1,21 +1,20 @@
 // const ContactController = require('../app/controller/ContactController');
 // const NewController = require('../app/controller/NewController');
-const router_tintuc = require('./news');
-// const router_lienhe = require('./contact');
-function route(app){
+const router2 = require('./PageSearch-Home');
+const router5 = require('./PageContact_News');
+function route(app){  
     // app.get('/', (req, res) => {
     //     res.render('home');
     //   })
-      
+    app.use('/PageSearch-Home', router2);
+    app.use('/PageContact_News', router5);
+    app.use('/', router5);
     //   app.get('/home', (req, res) => {
     //     res.render('home');
     //   })
     //   app.get('/news', (req, res) => {
     //     res.render('news');
     //   })
-      app.use('/news', router_tintuc);
-      app.use('/', router_tintuc);
-    
       // app.get('/contact', (req, res) => {
       //   res.render('contact');
       // })

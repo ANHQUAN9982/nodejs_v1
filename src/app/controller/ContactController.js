@@ -2,8 +2,11 @@ class ContactController {
     // lienhe(req, res){
     //     res.render('contact');
     // }
-    timkiem(req, res){
-        res.render('search');
+    lienhe(req, res){
+        res.render('contact');
+    }
+    tin(req, res){
+        res.render('news');
     }
 }
 module.exports = new ContactController;
