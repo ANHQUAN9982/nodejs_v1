@@ -3,9 +3,9 @@ const morgan = require('morgan');
 const exhb = require('express-handlebars');
 const path = require('path');
 const app = express();
-const port = 8000;
+const port = 3000;
 
-const route = require('./router');
+const route = require('./router/G1_Parents_Origin');
  
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded());
